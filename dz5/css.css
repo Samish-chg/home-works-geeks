@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f2;
+    padding: 20px;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 750px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+input {
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    background: #fff;
+    height: 40px;
+    width: 500px;
+    padding: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#create_button {
+    width: 240px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background: teal;
+    color: #fff;
+    cursor: pointer;
+    font-size: 22px;
+    transition: background 0.3s ease;
+}
+
+#create_button:hover {
+    background: #008080;
+}
+
+#todo_list {
+    margin: 20px auto;
+    max-width: 750px;
+}
+
+.block_text {
+    width: 100%;
+    border: 2px solid teal;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 10px;
+    word-break: break-all;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+.todoElement {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+}
+
+.eButton {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    font-family: sans-serif;
+    margin-right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.eButton:hover {
+    background: #f2f2f2;
+}
